@@ -13,4 +13,29 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+
+
+
+    <style name="AppTheme.Dark" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:colorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackgroundDark</item>
+        <item name="android:textColor">@color/colorTextLight</item>
+        <item name="android:textColorHint">@color/colorTextLight</item>
+
+    </style>
+
+    <style name="AppTheme.Light" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackgroundLight</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorHint">@android:color/black</item>
+
+    </style>
+
+
 </resources>

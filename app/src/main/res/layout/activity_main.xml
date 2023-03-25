@@ -8,6 +8,8 @@
 
 
     <EditText
+
+        android:textColor="@android:color/white"
         android:id="@+id/inputField"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -43,20 +45,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
-
-    <TextView
-        android:id="@+id/noItemsTextView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-
-        android:textAlignment="center"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/deleteAllButton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputField" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
